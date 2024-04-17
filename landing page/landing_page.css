@@ -1,0 +1,109 @@
+.top{
+  height: 60px;
+  width: 400px;
+  
+  display: flex;
+  flex-direction: row;
+}
+.main-top{
+  display: flex;
+  flex-direction: row;
+}
+.login,.help,.about_us{
+  height: 60px;
+  width:80px;
+   text-align: center;
+  margin-right: 10px;
+  padding-top: 20px;
+
+ 
+
+}
+.profile{
+  height: 60px;
+  width:100px;
+   text-align: center;
+  margin-right: 10px;
+
+}
+
+.company_logo{
+  height: 60px;
+  flex: 1;
+  margin-left: 10px;
+
+}
+header{
+  background-color:transparent;
+  position: fixed;
+  width: 100%; 
+  z-index: 1000; 
+}
+img{
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+a{
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+main{
+  height: 300px;
+  background-color: transparent;
+}
+footer{
+  height: 400px;
+  background-color:transparent;
+}
+body{
+  background-color: transparent;
+}
+.accordion {
+  border: 1px solid transparent;
+  font-size: 20px;
+}
+
+.accordion-item {
+  border-bottom: 1px transparent;
+}
+
+.accordion-header {
+  background-color: transparent;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.accordion-content {
+  padding: 10px;
+  display: none;
+}
+
+.accordion-content.active {
+  display: block;
+}
+footer{
+  color: white;
+}
+body {
+  background-image: url('325909_dark\ background\ for\ a\ \ crowd\ mangement\ system\ webs_xl-1024-v1-0.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+main{
+  color: white;
+  margin-top: 200px;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+ font-size: 14 px;
+}
+p{
+  width: 700px;
+}
+main{
+  width: 700px;
+  padding-top: 100px;
+  margin-top: 200px;
+  padding-bottom: 100px;
+}

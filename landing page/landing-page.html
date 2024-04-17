@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crowd sync</title>
+    <link rel="stylesheet" href="landing_page.css">
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+          var accordions = document.querySelectorAll('.accordion-item');
+
+          accordions.forEach(function(acc) {
+              acc.addEventListener('click', function() {
+                  this.querySelector('.accordion-content').classList.toggle('active');
+              });
+          });
+      });
+  </script>
+  </head>
+  <body>
+    <header>
+
+      <div class="main-top">
+        <div class="company_logo"> <a href="cl.png"><img src="cl-removebg-preview.png" alt=""></a></div>
+       <div class="top">
+          <div class="login"><a href="http://localhost/1234-main/website-login-page/loginpage/loginpage.php#" target="_blank">login</a></div>
+          <div class="help"><a href="@">help</a></div>
+          <div class="about_us"><a href="@">about-us</a></div>
+          <div class="profile"><a href="pfp.jpg"> <img  class ="pfp" src="pfp.jpg" alt=""></a></div>
+        </div>
+      </div>
+        
+    </header>
+    <hr>
+    <main>
+      <h2>Imagine going to a mall so you can enjoy a weekend of stress free shopping, or hanging out with your friends or for a movie
+        but you go there only to find out the mall is super crowded and
+        it's not what you were looking for? Design a system that
+        monitors the crowd in public places like
+        gardens/malls/amusement parks in a locality and gives real
+        time updates about the crowd movement and traffic around
+        the area. Also add in a feature to predict the conditions in the
+        next few hours/days. WE HELP YOU HANDLE THIS .</h2>
+    </main>
+  
+    <footer>
+      <div class="accordion">
+        <div class="accordion-item">
+            <div class="accordion-header">What do we do?</div>
+            <div class="accordion-content">Crowd management solutions are tools and strategies designed to efficiently control and organize
+              the movement and behavior of crowds in various places such as events, hubs, mall, restaurants and
+              more. It aims to enhance safety, security, and the overall experience for both event organizers and
+              attendees. Below graph shows the increase in the number of population in the world
+            </div>
+        </div>
+        <div class="accordion-item">
+            <div class="accordion-header">How do we do it?</div>
+            <div class="accordion-content">Our application takes input from CCTV footage, processes the
+              footage in the client's computer using YOLOV8 as the neural network
+              which identifies a human head and when it crosses a preset margin
+              line it adds to the total crowd count. Then it updates the information
+              and provides the user with the current crowd data.</div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header">what's our unique selling point?</div>
+          <div class="accordion-content">Our unique platform combines algorithms with collective
+            insights of thousands, delivering accurate and relevant
+            predictions and recommendations to the user.
+            1. Precision Predictions: Our app predicts the amount of crowd
+            using footage providing real time movement of the crowd
+            according to the user's interests.
+            2. Tailored Recommendations: Our app provides
+            recommendations based on user input and reviews .
+            3. Real-Time Insights: Stay ahead of the curve with up-to-the minute insights. Our platform continuously updates predictions
+            and recommendations as new data becomes available, ensuring
+            the user always equipped with the latest information.</div>
+      </div>
+        
+    </div>
+    
+    </footer>
+    
+  </body>
+</html>
